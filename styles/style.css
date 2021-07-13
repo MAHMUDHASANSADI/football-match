@@ -1,0 +1,46 @@
+/* font for css */
+
+body h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* player section is here  */
+
+.container{
+   padding-bottom: 70px;
+}
+.players{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-row-gap: 10px;
+   padding-left: 50px;
+}
+.player{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    Width: 330px;
+    Height: 474px;
+    margin-top: 27px;
+    padding: 15px;
+}
+.player-size{
+    width: 330px;
+    height: 256px;
+}
+
+/* logo section  */
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mini-logo{
+    display: flex;
+    padding-bottom: 30px;   
+}
+.mini-logo-size{
+    width: 50px;
+       padding-right: 30px;
+}
