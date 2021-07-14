@@ -32,6 +32,7 @@ body h1{
      width: 500px;
      height: 500px;
      padding-top: 50px;
+     padding-left: 100px;
  }
 
 /* player section is here  */
@@ -58,6 +59,20 @@ body h1{
     height: 256px;
 }
 
+/* watch live session  */
+.live-session{
+    display: flex;
+    padding-left: 100px;
+}
+.text-of-live{
+   width: 200px;
+   font-size: 30px;
+
+}
+.video-of-live{
+   padding-left: 400px;
+}
+
 /* logo section  */
 
 .logos{
@@ -79,4 +94,18 @@ body h1{
     width: 30px;
     height: 30px;
        padding-right: 30px;
+}
+
+/* media query part  */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .container-box, .players, .logos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .logo{
+        flex-direction: column;
+      }
 }
