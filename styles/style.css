@@ -4,6 +4,36 @@ body h1{
     font-family: 'Poppins', sans-serif;
 }
 
+/* style of header  */
+
+ .box{
+    background-color: blue;
+     display: flex;
+     padding-left: 150px;
+ }
+ .font{
+     color: white;
+     width: 400px;
+     font-size: 40px;
+ }
+ .font button{
+     background-color: #E02C6D;
+     color: white;
+     padding: 10px 24px;
+      }
+ button:hover{
+          transform: rotate(180deg);
+          transition: 5s 1s;
+      }
+ .link{
+     text-decoration: none;
+ }
+ .banner-size{
+     width: 500px;
+     height: 500px;
+     padding-top: 50px;
+ }
+
 /* player section is here  */
 
 .container{
@@ -35,12 +65,18 @@ body h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid white;
+}
+.logo-size{
+    width: 483px;
+    height: 110px;
 }
 .mini-logo{
     display: flex;
     padding-bottom: 30px;   
 }
 .mini-logo-size{
-    width: 50px;
+    width: 30px;
+    height: 30px;
        padding-right: 30px;
 }
